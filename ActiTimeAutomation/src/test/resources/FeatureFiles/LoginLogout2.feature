@@ -3,13 +3,9 @@
 # Reviewed By:
 #Purpose:
 # Description :
-@Execute
-Feature: Login and Logout functionality
-Description: Verify the login and logout functionality
 
-Background:
-Given I launch Oracle Database
-And I connect to Oracle Database
+Feature: Login and Logout functionality New
+Description: Verify the login and logout functionality
 
 Scenario: Login with valid credentials
 Given I launch chrome Browser
