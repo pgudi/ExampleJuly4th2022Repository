@@ -251,4 +251,42 @@ public class StepDefinitions {
 			e.printStackTrace();
 		}
 	}
+	
+	/*
+	 * Created By:
+	 * Reviewed By:
+	 * Parameters:
+	 * Return Type:
+	 * Purpose:
+	 */
+	@When("^I enter valid \"(.*)\" in username field$")
+	public void I_enter_valid_username_in_username_field(String user)
+	{
+		try
+		{
+			oBrowser.findElement(By.id("username")).sendKeys(user);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	/*
+	 * Created By:
+	 * Reviewed By:
+	 * Parameters:
+	 * Return Type:
+	 * Purpose:
+	 */
+	@And("^I enter valid \"(.*)\" in password field$")
+	public void I_enter_valid_password_in_password_field(String password)
+	{
+		try
+		{
+			oBrowser.findElement(By.name("pwd")).sendKeys(password);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
 }

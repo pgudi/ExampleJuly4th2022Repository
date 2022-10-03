@@ -3,7 +3,7 @@
 # Reviewed By:
 #Purpose:
 # Description :
-
+@Execute
 Feature: Login and Logout functionality New
 Description: Verify the login and logout functionality
 
